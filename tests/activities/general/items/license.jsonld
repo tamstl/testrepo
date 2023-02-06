@@ -1,143 +1,167 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "proportion_male_subjects.jsonld",
+    "@id": "license.jsonld",
     "prefLabel": {
-        "en": "proportion male subjects"
+        "en": "license"
     },
-    "description": "proportion male subjects",
+    "description": "license",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "slider"
+        "inputType": "select"
     },
     "question": {
-        "en": "2.5 - The proportion of subjects who were male"
+        "en": "1.6 - License<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>https://openminds.ebrains.eu/core/License</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 19,
+        "maxValue": 23,
         "choices": [
             {
                 "name": {
-                    "en": "0.000"
+                    "en": "AGPL-3.0-only"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "5.263"
+                    "en": "Apache-2.0"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "10.526"
+                    "en": "BSD-2-Clause |BSD-3-Clause"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "15.789"
+                    "en": "BSD-4-Clause CC BY 4.0 CC"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "21.053"
+                    "en": "BY-NC 4.0 CC"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "26.316"
+                    "en": "BY-NC-ND 4.0 CC"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "31.579"
+                    "en": "BY-NC-SA 4.0 CC"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "36.842"
+                    "en": "BY-ND 4.0 CC"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "42.105"
+                    "en": "BY-SA 4.0 CCO 1.0"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "47.368"
+                    "en": "CECILL-2.1"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "52.632"
+                    "en": "EUPL-1.2"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "57.895"
+                    "en": "GPL-1.0-only"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "63.158"
+                    "en": "GPL-1.0-or-later"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "68.421"
+                    "en": "GPL-2.0-only"
                 },
                 "value": 13
             },
             {
                 "name": {
-                    "en": "73.684"
+                    "en": "GPL-2.0-or-later"
                 },
                 "value": 14
             },
             {
                 "name": {
-                    "en": "78.947"
+                    "en": "GPL-3.0-only"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "84.211"
+                    "en": "GPL-3.0-or-later"
                 },
                 "value": 16
             },
             {
                 "name": {
-                    "en": "89.474"
+                    "en": "LGPL-2.0-only"
                 },
                 "value": 17
             },
             {
                 "name": {
-                    "en": "94.737"
+                    "en": "LGPL-2.1-only"
                 },
                 "value": 18
             },
             {
                 "name": {
-                    "en": "100.000"
+                    "en": "LGPL-2.1-or-later"
                 },
                 "value": 19
+            },
+            {
+                "name": {
+                    "en": "LGPL-3.0-only"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "LGPL-3.0-or-later"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "MIT"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "MPL-2.0 "
+                },
+                "value": 23
             }
         ],
         "multipleChoice": false

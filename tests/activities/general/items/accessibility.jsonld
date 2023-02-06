@@ -1,41 +1,47 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "handedness.jsonld",
+    "@id": "accessibility.jsonld",
     "prefLabel": {
-        "en": "handedness"
+        "en": "accessibility"
     },
-    "description": "handedness",
+    "description": "accessibility",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "question": {
-        "en": "2.4 - Handedness of subjects"
+        "en": "1.4 - Accessibility<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>https://openminds.ebrains.eu/core/DatasetVersion</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 3,
         "choices": [
             {
                 "name": {
-                    "en": "right"
+                    "en": "controlled access"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "left"
+                    "en": "free access"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "both"
+                    "en": "restricted access"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "under embargo"
+                },
+                "value": 3
             }
         ],
         "multipleChoice": false

@@ -1,18 +1,18 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "group_description.jsonld",
+    "@id": "description.jsonld",
     "prefLabel": {
-        "en": "group description"
+        "en": "description"
     },
-    "description": "group description",
+    "description": "description",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
-        "en": "2.9 - A description of the groups being compared"
+        "en": "1.2 - Description<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>https://openminds.ebrains.eu/core/Dataset</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

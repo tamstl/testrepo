@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "repository.jsonld",
+    "prefLabel": {
+        "en": "repository"
+    },
+    "description": "repository",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": {
+        "en": "1.7 - Repository URL<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>https://openminds.ebrains.eu/core/DatasetVersion</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 3000
+    }
+}

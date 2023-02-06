@@ -1,33 +1,33 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
-    "@id": "participants_schema.jsonld",
+    "@id": "general_schema.jsonld",
     "prefLabel": {
-        "en": "Participants"
+        "en": "General"
     },
-    "description": "participants",
+    "description": "general",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": ""
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1T52mgS1NEQS6VyXbWVRI2Zd9h5rmn3JvT9olqzuPKlk/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='' target='_blank' > Reference </a><br><br>Desctribe your dataset / object</p>"
     },
     "ui": {
         "shuffle": false,
         "order": [
-            "items/subject_age_mean.jsonld",
-            "items/subject_age_min.jsonld",
-            "items/subject_age_max.jsonld",
-            "items/handedness.jsonld",
-            "items/proportion_male_subjects.jsonld",
-            "items/inclusion_exclusion_criteria.jsonld",
-            "items/number_of_rejected_subjects.jsonld",
-            "items/group_comparison.jsonld",
-            "items/group_description.jsonld"
+            "items/fullName.jsonld",
+            "items/description.jsonld",
+            "items/hasVersion.jsonld",
+            "items/accessibility.jsonld",
+            "items/experimentalApproach.jsonld",
+            "items/license.jsonld",
+            "items/repository.jsonld",
+            "items/keyword.jsonld",
+            "items/releaseDate.jsonld"
         ],
         "addProperties": [
             {
-                "variableName": "subject_age_mean",
-                "isAbout": "items/subject_age_mean.jsonld",
+                "variableName": "fullName",
+                "isAbout": "items/fullName.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -35,8 +35,8 @@
                 ]
             },
             {
-                "variableName": "subject_age_min",
-                "isAbout": "items/subject_age_min.jsonld",
+                "variableName": "description",
+                "isAbout": "items/description.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -44,8 +44,8 @@
                 ]
             },
             {
-                "variableName": "subject_age_max",
-                "isAbout": "items/subject_age_max.jsonld",
+                "variableName": "hasVersion",
+                "isAbout": "items/hasVersion.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -53,8 +53,8 @@
                 ]
             },
             {
-                "variableName": "handedness",
-                "isAbout": "items/handedness.jsonld",
+                "variableName": "accessibility",
+                "isAbout": "items/accessibility.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -62,8 +62,8 @@
                 ]
             },
             {
-                "variableName": "proportion_male_subjects",
-                "isAbout": "items/proportion_male_subjects.jsonld",
+                "variableName": "experimentalApproach",
+                "isAbout": "items/experimentalApproach.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -71,8 +71,8 @@
                 ]
             },
             {
-                "variableName": "inclusion_exclusion_criteria",
-                "isAbout": "items/inclusion_exclusion_criteria.jsonld",
+                "variableName": "license",
+                "isAbout": "items/license.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -80,8 +80,8 @@
                 ]
             },
             {
-                "variableName": "number_of_rejected_subjects",
-                "isAbout": "items/number_of_rejected_subjects.jsonld",
+                "variableName": "repository",
+                "isAbout": "items/repository.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -89,8 +89,8 @@
                 ]
             },
             {
-                "variableName": "group_comparison",
-                "isAbout": "items/group_comparison.jsonld",
+                "variableName": "keyword",
+                "isAbout": "items/keyword.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -98,9 +98,9 @@
                 ]
             },
             {
-                "variableName": "group_description",
-                "isAbout": "items/group_description.jsonld",
-                "isVis": "group_comparison == 1",
+                "variableName": "releaseDate",
+                "isAbout": "items/releaseDate.jsonld",
+                "isVis": true,
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

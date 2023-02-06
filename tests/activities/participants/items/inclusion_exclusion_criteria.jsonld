@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "2.7 - Additional inclusion/exclusion criteria, if any.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Including specific sampling strategies that limit inclusion to a specific group, such as laboratory members.</details></div>"
+        "en": "2.6 - Additional inclusion/exclusion criteria, if any.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Including specific sampling strategies that limit inclusion to a specific group, such as laboratory members.</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

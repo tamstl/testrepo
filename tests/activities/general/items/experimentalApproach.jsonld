@@ -1,41 +1,47 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "handedness.jsonld",
+    "@id": "experimentalApproach.jsonld",
     "prefLabel": {
-        "en": "handedness"
+        "en": "experimentalApproach"
     },
-    "description": "handedness",
+    "description": "experimentalApproach",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "question": {
-        "en": "2.4 - Handedness of subjects"
+        "en": "1.5 - Type"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 3,
         "choices": [
             {
                 "name": {
-                    "en": "right"
+                    "en": "derived data"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "left"
+                    "en": "experimental data"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "both"
+                    "en": "raw data"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "simulation data"
+                },
+                "value": 3
             }
         ],
         "multipleChoice": false
