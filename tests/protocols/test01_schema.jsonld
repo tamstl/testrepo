@@ -1,0 +1,55 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Protocol",
+    "@id": "test01_schema.jsonld",
+    "prefLabel": {
+        "en": "test01"
+    },
+    "description": "test01",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": {
+        "@id": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/landing_pages/README_eCOBIDAS-en.md",
+        "inLanguage": "en"
+    },
+    "preamble": {
+        "en": ""
+    },
+    "ui": {
+        "shuffle": false,
+        "order": [
+            "../activities/experimental_design/experimental_design_schema.jsonld",
+            "../activities/participants/participants_schema.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "experimental_design",
+                "isAbout": "../activities/experimental_design/experimental_design_schema.jsonld",
+                "prefLabel": {
+                    "en": "Experimental design"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "participants",
+                "isAbout": "../activities/participants/participants_schema.jsonld",
+                "prefLabel": {
+                    "en": "Participants"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}
